@@ -8,8 +8,6 @@
     android:layout_margin="10sp"
     tools:context="com.ranjeet.listsqlite.MainActivity">
 
-//changes applied this project
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -102,7 +100,7 @@
             android:layout_weight="1"
             android:text="Save"
             android:layout_margin="10dp"
-            android:textSize="18dp"
+            android:textSize="16dp"
             android:textColor="#c10f0f"
             android:background="#10dfdf"
             android:layout_width="wrap_content"
@@ -114,7 +112,7 @@
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:text="Show"
-            android:textSize="18dp"
+            android:textSize="15dp"
             android:textColor="#c10f0f"
             android:background="#10dfdf"
             android:layout_width="wrap_content"
