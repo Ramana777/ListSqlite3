@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     ImageView image;
     final int REQUEST_CODE_GALLERY = 999;
 
+    //main method
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
