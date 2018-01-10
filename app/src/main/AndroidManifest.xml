@@ -17,7 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Itemslistss"
+        <activity android:name=".Itemlists"
             android:label="Items"
             android:parentActivityName=".MainActivity"/>
     </application>

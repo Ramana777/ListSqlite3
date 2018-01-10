@@ -8,7 +8,17 @@
     android:layout_margin="10sp"
     tools:context="com.ranjeet.listsqlite.MainActivity">
 
-    <TextView
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
         android:layout_marginTop="10dp"
         android:id="@+id/name"
         android:text="Enter your name"
@@ -16,7 +26,8 @@
         android:textColor="#000"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <EditText
+
+        <EditText
         android:id="@+id/edittext1"
         android:padding="10dp"
         android:background="@drawable/reactangle"
@@ -108,4 +119,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent" />
     </LinearLayout>
+
+
+
+    </LinearLayout>
+    </ScrollView>
 </LinearLayout>

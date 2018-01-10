@@ -15,9 +15,9 @@ import static android.provider.ContactsContract.CommonDataKinds.Organization.DEP
  * Created by admin on 1/3/2018.
  */
 
-public class Itemslistss extends AppCompatActivity {
+public class Itemlists extends AppCompatActivity {
     ListView listView;
-    ArrayAdapter adapter = null;
+    ListAdapter adapter = null;
     ArrayList<Listitems> list;
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class Itemslistss extends AppCompatActivity {
         setContentView(R.layout.data_list);
         listView = (ListView) findViewById(R.id.list);
         list = new ArrayList();
-        adapter = new ArrayAdapter(this, R.layout.alldata_list, list);
+        adapter = new ListAdapter(this, R.layout.alldata_list, list);
         listView.setAdapter(adapter);
         //get all data from sqlite database
         Cursor cursor = MainActivity.mydb.getData("SELECT * FROM DEPARTMENT");
