@@ -8,7 +8,8 @@
     android:layout_margin="10sp"
     tools:context="com.ranjeet.listsqlite.MainActivity">
 
-
+//changes applied
+    
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
